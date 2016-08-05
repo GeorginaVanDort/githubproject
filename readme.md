@@ -24,8 +24,10 @@ http://georginavandort.github.io/ -->
 
 ## Setup
 
-You'll first need NPM installed.
-Clone this repository and run NPM install.
+You'll first need NPM installed on your machine.
+Clone this repository and run $npm install to load dependencies.
+Run $gulp serve to load the webpage.
+Enjoy! :)
 
 
 ## Technologies Used
