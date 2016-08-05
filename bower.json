@@ -1,7 +1,10 @@
 {
-  "name": "maps",
-  "description": "",
+  "name": "githubproj",
+  "description": "## Description",
   "main": "gulpfile.js",
+  "authors": [
+    "Georgina Van Dort <GeorginaVanDort@gmail.com>"
+  ],
   "license": "ISC",
   "homepage": "",
   "ignore": [
@@ -13,7 +16,6 @@
   ],
   "dependencies": {
     "jquery": "^3.1.0",
-    "bootstrap": "^3.3.7",
-    "moment": "^2.14.1"
+    "bootstrap": "^3.3.7"
   }
 }

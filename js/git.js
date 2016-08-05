@@ -11,7 +11,7 @@ userProfile.prototype.GitSearch = function () {
       $("#userResults").text("");
       $("#usernameResult").html("<h3>" + usernameResult + "</h3>");
       for (var i = 0; i < response.length; i++) {
-        $("#userResults").append("<li><h4>Repo Name: </h4>" + response[i].name + "<br><h4>Description: </h4>" + response[i].description + "</li>");
+        $("#userResults").append("<br><li><h4>Repo Name: </h4>" + response[i].name + "<br><h4>Description: </h4>" + response[i].description + "</li>");
       }
     }).fail(function(error){
       console.log(error.responseJSON.message);

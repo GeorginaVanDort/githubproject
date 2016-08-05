@@ -1,5 +1,5 @@
 {
-  "name": "maps",
+  "name": "githubproj",
   "version": "1.0.0",
   "main": "gulpfile.js",
   "scripts": {
@@ -20,6 +20,8 @@
     "jshint": "^2.9.2",
     "vinyl-source-stream": "^1.1.0"
   },
-  "dependencies": {},
-  "description": ""
+  "dependencies": {
+    "bower": "^1.7.9"
+  },
+  "description": "## Description"
 }
