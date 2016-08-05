@@ -24,7 +24,9 @@ http://georginavandort.github.io/ -->
 
 ## Setup
 
-Clone this repository. The final build files are included here, but you could delete and rebuild if necessary. Run NPM and Bower installs to install dependencies and build.
+You'll first need NPM installed.
+Clone this repository and run NPM install.
+
 
 ## Technologies Used
 

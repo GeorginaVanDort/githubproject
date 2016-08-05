@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="/build/css/vendor.css">
     <script src="build/js/vendor.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
-    <link rel="stylesheet" href="build/css/vendor.css">
     <title>GitHub Search</title>
   </head>
 
   <body>
     <div class="container">
-      <h3>Git Hub Repo Search</h3>
+    <div class="jumbotron">
+      <h1 class="display-3">Git Hub Repo Search</h1>
+    </div>
     <div class="form-group">
       <label for="username">Enter a GitHub Username:</label>
       <input class="form-control" id="username" placeholder="GitHub Username">
@@ -17,12 +19,26 @@
       <button class="btn-success" id="makeSearch">Search!</button>
     </div>
 
-    <div class="container">
+    <!-- <div class="container">
       <div id="usernameResult"></div>
       <div class="container">
-        <ul id="userResults">georginavandort</ul>
+        <ul id="userResults"></ul>
       </div>
     </div>
+  </div> -->
+
+    <div class="container">
+      <table class="table">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Repo Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody id="userResults">
+      </tbody>
+    </table>
     </div>
   </body>
 </html>
