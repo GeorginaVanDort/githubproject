@@ -60,10 +60,10 @@ gulp.task('bowerJS', function(){
   .pipe(gulp.dest('./build/js'));
 });
 
-gulp.task('bowerCSS', function() {
+gulp.task('bowerCSS', function () {
   return gulp.src(lib.ext('css').files)
-  .pipe(concat('vendor.css'))
-  .pipe(gulp.dest('./build/css'));
+    .pipe(concat('vendor.css'))
+    .pipe(gulp.dest('./build/css'));
 });
 
 gulp.task('bower', ['bowerJS', 'bowerCSS']);
